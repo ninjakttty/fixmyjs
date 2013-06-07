@@ -6,3 +6,4 @@ class fixmyjsCommand(sublime_plugin.WindowCommand):
       'file': 'Packages/fixmyjs/fixmyjs.sublime-build'
     })
     self.window.run_command('build')
+    self.window.run_command("hide_panel", {"panel": "output.exec"})
