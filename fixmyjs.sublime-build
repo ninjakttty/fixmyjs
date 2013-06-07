@@ -1,0 +1,7 @@
+{
+  "cmd": ["fixmyjs", "$file"],
+
+  "osx": {
+    "path": "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin"
+  }
+}
